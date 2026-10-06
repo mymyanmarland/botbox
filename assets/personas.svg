@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 156">
+<style>
+  .mq{animation:mq 40s linear infinite}
+  svg:hover .mq{animation-play-state:paused}
+  @keyframes mq{from{transform:translateX(0)}to{transform:translateX(-3128px)}}
+  text{font-family:'Segoe UI',system-ui,sans-serif}
+</style>
+<defs>
+  <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#08080d"/><stop offset="100%" stop-color="#08080d" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#08080d" stop-opacity="0"/><stop offset="100%" stop-color="#08080d"/>
+  </linearGradient>
+  <clipPath id="clip"><rect x="170" y="0" width="1030" height="156"/></clipPath>
+ </defs>
+ <rect width="1200" height="156" rx="20" fill="#08080d"/>
+<rect width="1200" height="156" rx="20" fill="none" stroke="rgba(255,255,255,.09)"/>
+<text x="36" y="72" font-size="44" font-weight="800" fill="#e11d2e">34</text>
+<text x="36" y="102" font-size="17" font-weight="700" fill="#a1a1aa" letter-spacing="2">PERSONAS</text>
+<text x="36" y="128" font-size="13" fill="#71717a">hover to pause</text>
+<g clip-path="url(#clip)">
+  <g class="mq">
+    <g>
+  <g transform="translate(46,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🌸</text></g>
+  <g transform="translate(138,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">💼</text></g>
+  <g transform="translate(230,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🛍️</text></g>
+  <g transform="translate(322,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">📚</text></g>
+  <g transform="translate(414,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">💕</text></g>
+  <g transform="translate(506,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🗣️</text></g>
+  <g transform="translate(598,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🤗</text></g>
+  <g transform="translate(690,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🩺</text></g>
+  <g transform="translate(782,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">💻</text></g>
+  <g transform="translate(874,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">📰</text></g>
+  <g transform="translate(966,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🍳</text></g>
+  <g transform="translate(1058,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">💪</text></g>
+  <g transform="translate(1150,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">💰</text></g>
+  <g transform="translate(1242,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">⚖️</text></g>
+  <g transform="translate(1334,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🌐</text></g>
+  <g transform="translate(1426,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🔤</text></g>
+  <g transform="translate(1518,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🔢</text></g>
+  <g transform="translate(1610,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">📣</text></g>
+  <g transform="translate(1702,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🎨</text></g>
+  <g transform="translate(1794,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">✍️</text></g>
+  <g transform="translate(1886,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🪶</text></g>
+  <g transform="translate(1978,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">😂</text></g>
+  <g transform="translate(2070,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">📖</text></g>
+  <g transform="translate(2162,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🔥</text></g>
+  <g transform="translate(2254,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🧭</text></g>
+  <g transform="translate(2346,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🎤</text></g>
+  <g transform="translate(2438,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🗯️</text></g>
+  <g transform="translate(2530,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🏛️</text></g>
+  <g transform="translate(2622,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🔬</text></g>
+  <g transform="translate(2714,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🤔</text></g>
+  <g transform="translate(2806,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">✈️</text></g>
+  <g transform="translate(2898,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🔮</text></g>
+  <g transform="translate(2990,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">👪</text></g>
+  <g transform="translate(3082,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🧠</text></g>
+    </g>
+    <g transform="translate(3128,0)">
+  <g transform="translate(46,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🌸</text></g>
+  <g transform="translate(138,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">💼</text></g>
+  <g transform="translate(230,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🛍️</text></g>
+  <g transform="translate(322,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">📚</text></g>
+  <g transform="translate(414,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">💕</text></g>
+  <g transform="translate(506,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🗣️</text></g>
+  <g transform="translate(598,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🤗</text></g>
+  <g transform="translate(690,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🩺</text></g>
+  <g transform="translate(782,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">💻</text></g>
+  <g transform="translate(874,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">📰</text></g>
+  <g transform="translate(966,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🍳</text></g>
+  <g transform="translate(1058,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">💪</text></g>
+  <g transform="translate(1150,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">💰</text></g>
+  <g transform="translate(1242,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">⚖️</text></g>
+  <g transform="translate(1334,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🌐</text></g>
+  <g transform="translate(1426,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🔤</text></g>
+  <g transform="translate(1518,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🔢</text></g>
+  <g transform="translate(1610,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">📣</text></g>
+  <g transform="translate(1702,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🎨</text></g>
+  <g transform="translate(1794,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">✍️</text></g>
+  <g transform="translate(1886,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🪶</text></g>
+  <g transform="translate(1978,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">😂</text></g>
+  <g transform="translate(2070,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">📖</text></g>
+  <g transform="translate(2162,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🔥</text></g>
+  <g transform="translate(2254,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🧭</text></g>
+  <g transform="translate(2346,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🎤</text></g>
+  <g transform="translate(2438,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🗯️</text></g>
+  <g transform="translate(2530,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🏛️</text></g>
+  <g transform="translate(2622,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🔬</text></g>
+  <g transform="translate(2714,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🤔</text></g>
+  <g transform="translate(2806,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">✈️</text></g>
+  <g transform="translate(2898,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🔮</text></g>
+  <g transform="translate(2990,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">👪</text></g>
+  <g transform="translate(3082,78)"><circle r="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.13)"/><text y="11" text-anchor="middle" font-size="32">🧠</text></g>
+    </g>
+  </g>
+</g>
+<rect x="170" y="0" width="60" height="156" fill="url(#fadeL)"/>
+<rect x="1140" y="0" width="60" height="156" fill="url(#fadeR)"/>
+</svg>
