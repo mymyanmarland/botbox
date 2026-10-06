@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460">
+<style>
+  text{font-family:'Segoe UI',system-ui,sans-serif}
+  .tbox{transform-box:fill-box;transform-origin:center}
+  .tboxb{transform-box:fill-box;transform-origin:bottom}
+  .tw{animation:tw 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes tw{0%,100%{opacity:.15;transform:scale(.7)}50%{opacity:1;transform:scale(1.15)}}
+  .xf-a{animation:xf 9s infinite}
+  .xf-b{animation:xf 9s infinite;animation-delay:3s}
+  .xf-c{animation:xf 9s infinite;animation-delay:6s}
+  @keyframes xf{0%{opacity:0;transform:scale(.75)}8%,30%{opacity:1;transform:scale(1)}38%,100%{opacity:0;transform:scale(1.08)}}
+  .bob{animation:bob 4s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+  .draw{stroke-dasharray:100;animation:draw 4.5s ease-in-out infinite}
+  @keyframes draw{0%{stroke-dashoffset:100;opacity:1}25%,70%{stroke-dashoffset:0;opacity:1}88%,100%{stroke-dashoffset:0;opacity:0}}
+  .bnc{animation:bnc 1.2s ease-in-out infinite}
+  @keyframes bnc{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-9px)}}
+  .grow{animation:grow 2.6s ease-in-out infinite}
+  @keyframes grow{0%,100%{transform:scaleY(.3)}50%{transform:scaleY(1)}}
+  .flk{animation:flk 3.2s linear infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes flk{0%,44%,56%,78%,100%{opacity:1}48%,52%{opacity:.2}82%{opacity:.55}}
+</style>
+<defs>
+  <linearGradient id="imgg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f43f52"/><stop offset="55%" stop-color="#a21caf"/><stop offset="100%" stop-color="#1e1b4b"/>
+  </linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ff5c6c"/><stop offset="100%" stop-color="#a30f1d"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="460" rx="20" fill="#08080d"/>
+<rect width="1200" height="460" rx="20" fill="none" stroke="rgba(255,255,255,.09)"/>
+
+<!-- TILE 1: personas -->
+<g transform="translate(14,14)">
+  <rect width="376" height="208" rx="18" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.1)"/>
+  <g class="tbox xf-a"><text x="188" y="102" text-anchor="middle" font-size="58">💕</text></g>
+  <g class="tbox xf-b"><text x="188" y="102" text-anchor="middle" font-size="58">🩺</text></g>
+  <g class="tbox xf-c"><text x="188" y="102" text-anchor="middle" font-size="58">💻</text></g>
+  <text x="188" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#fafafa">🎭 34 Personas</text>
+  <text x="188" y="180" text-anchor="middle" font-size="13" fill="#a1a1aa">Burmese-first AI personalities</text>
+</g>
+
+<!-- TILE 2: imagine -->
+<g transform="translate(412,14)">
+  <rect width="376" height="208" rx="18" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.1)"/>
+  <g class="bob">
+    <rect x="138" y="22" width="100" height="82" rx="10" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.2)" stroke-width="2"/>
+    <rect x="148" y="32" width="80" height="62" rx="6" fill="url(#imgg)"/>
+  </g>
+  <path class="tw" d="M112 40 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 Z" fill="#fff"/>
+  <path class="tw" style="animation-delay:.9s" d="M262 66 l2.4 6 6 2.4 -6 2.4 -2.4 6 -2.4 -6 -6 -2.4 6 -2.4 Z" fill="#fda4af"/>
+  <path class="tw" style="animation-delay:1.7s" d="M246 28 l1.6 4 4 1.6 -4 1.6 -1.6 4 -1.6 -4 -4 -1.6 4 -1.6 Z" fill="#fff"/>
+  <text x="188" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#fafafa">🖼️ /imagine</text>
+  <text x="188" y="180" text-anchor="middle" font-size="13" fill="#a1a1aa">text → image, one toggle</text>
+</g>
+
+<!-- TILE 3: access control -->
+<g transform="translate(810,14)">
+  <rect width="376" height="208" rx="18" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.1)"/>
+  <path d="M188 22 L226 37 V68 C226 96 208 110 188 118 C168 110 150 96 150 68 V37 Z" fill="rgba(225,29,46,.12)" stroke="#e11d2e" stroke-width="2.5"/>
+  <path class="draw" d="M170 68 L184 82 L208 54" stroke="#4ade80" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none" pathLength="100"/>
+  <text x="188" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#fafafa">🔒 Access control</text>
+  <text x="188" y="180" text-anchor="middle" font-size="13" fill="#a1a1aa">allowlist protects your API credit</text>
+</g>
+
+<!-- TILE 4: memory -->
+<g transform="translate(14,238)">
+  <rect width="376" height="208" rx="18" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.1)"/>
+  <rect x="52" y="26" width="150" height="42" rx="13" fill="rgba(255,255,255,.08)"/>
+  <text x="66" y="53" font-size="14" fill="#d4d4d8">မင်္ဂလာပါ! 👋</text>
+  <rect x="174" y="76" width="150" height="42" rx="13" fill="#e11d2e"/>
+  <text x="310" y="103" text-anchor="end" font-size="14" fill="#fff">Hello! 😊</text>
+  <g>
+    <circle class="tbox bnc" cx="96" cy="152" r="7" fill="#fda4af"/>
+    <circle class="tbox bnc" style="animation-delay:.15s" cx="118" cy="152" r="7" fill="#fda4af"/>
+    <circle class="tbox bnc" style="animation-delay:.3s" cx="140" cy="152" r="7" fill="#fda4af"/>
+  </g>
+  <text x="188" y="196" text-anchor="middle" font-size="20" font-weight="700" fill="#fafafa">🧠 Per-user memory</text>
+</g>
+
+<!-- TILE 5: admin -->
+<g transform="translate(412,238)">
+  <rect width="376" height="208" rx="18" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.1)"/>
+  <line x1="118" y1="130" x2="258" y2="130" stroke="rgba(255,255,255,.2)" stroke-width="2"/>
+  <rect class="tboxb grow" x="128" y="70" width="26" height="60" rx="6" fill="url(#bar)"/>
+  <rect class="tboxb grow" style="animation-delay:.2s" x="162" y="48" width="26" height="82" rx="6" fill="url(#bar)"/>
+  <rect class="tboxb grow" style="animation-delay:.4s" x="196" y="84" width="26" height="46" rx="6" fill="url(#bar)"/>
+  <rect class="tboxb grow" style="animation-delay:.6s" x="230" y="58" width="26" height="72" rx="6" fill="url(#bar)"/>
+  <text x="188" y="168" text-anchor="middle" font-size="20" font-weight="700" fill="#fafafa">🛡️ Admin panel</text>
+  <text x="188" y="194" text-anchor="middle" font-size="13" fill="#a1a1aa">stats · start/stop · message viewer</text>
+</g>
+
+<!-- TILE 6: 5 minutes -->
+<g transform="translate(810,238)">
+  <rect width="376" height="208" rx="18" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.1)"/>
+  <path class="flk" d="M200 28 L168 78 H194 L182 116 L216 64 H190 Z" fill="#fbbf24"/>
+  <text x="188" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#fafafa">⚡ 5-minute setup</text>
+  <text x="188" y="180" text-anchor="middle" font-size="13" fill="#a1a1aa">token → persona → deploy, no code</text>
+</g>
+</svg>

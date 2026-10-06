@@ -29,6 +29,10 @@
   <img src="assets/architecture.svg" alt="How BotBox works" width="720">
 </p>
 
+<p align="center">
+  <img src="assets/demo-chat.svg" alt="Live chat demo" width="320">
+</p>
+
 ## ✨ Features
 
 | | Feature | Details |
@@ -43,7 +47,7 @@
 | 🔑 | **BYO API key** | No free tier — you bring your relay key (any OpenAI-compatible relay) |
 
 <p align="center">
-  <img src="assets/personas.svg" alt="34 personas" width="100%">
+  <img src="assets/features.svg" alt="Feature highlights" width="100%">
 </p>
 
 ## 🚀 Quick start
