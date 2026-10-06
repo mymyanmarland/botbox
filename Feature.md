@@ -91,3 +91,7 @@ User accounts, payments/subscriptions, image generation, voice transcription, re
 - New `src/components/Logo.tsx`: kawaii robot head on a red-gradient squircle — heart antenna tip, big sparkly eyes, pink blush, happy smile.
 - Header (Layout.tsx) uses `<Logo/>` instead of the plain "B" square, with red glow (intensifies on hover).
 - `public/favicon.svg` replaced (was an unrelated purple lightning bolt) with the same robot artwork.
+
+## Features section + more repo SVGs (2026-10-06)
+- Landing: new `FeaturesSection` (between How-it-works and Personas) — animated SVG banner (`FeatureBanner`: glass panel, flowing gradient line with `dashflow` animation, 5 pulsing feature nodes with `ping-ring`, twinkling stars) + 6 feature cards with staggered fade-up and hover glow. New i18n keys `features.*` / `feat.*` (my+en).
+- Repo: `assets/features.svg` (6 tiles, each with its own micro-animation: persona crossfade, imagine sparkles, shield checkmark draw, typing dots, growing bars, lightning flicker) and `assets/demo-chat.svg` (15s looping animated conversation: question → typing → answer → /imagine → generated image). Both added to README.

@@ -70,5 +70,5 @@
 <text x="600" y="290" text-anchor="middle" font-size="12" fill="#71717a">stats</text>
 
 <!-- imagine note -->
-<text x="480" y="366" text-anchor="middle" font-size="13" fill="#71717a">/imagine → image model → 🖼️ photo &nbsp;·&nbsp; /myid → 🆔 &nbsp;·&nbsp; allowlist 🔒 protects your API credit</text>
+<text x="480" y="366" text-anchor="middle" font-size="13" fill="#71717a">/imagine → image model → 🖼️ photo &#160;·&#160; /myid → 🆔 &#160;·&#160; allowlist 🔒 protects your API credit</text>
 </svg>

@@ -4,6 +4,7 @@ import { useLang, type TKey } from "../i18n";
 import { Btn, Card } from "../components/ui";
 import { BotMascot, HeroBackdrop } from "../components/HeroArt";
 import { PersonasSection } from "../components/PersonasSection";
+import { FeaturesSection } from "../components/FeaturesSection";
 
 const STEPS = [
   { n: "1", t: "steps.1.t" as TKey, d: "steps.1.d" as TKey, emoji: "🔑" },
@@ -106,6 +107,9 @@ export function Landing() {
           ))}
         </div>
       </section>
+
+      {/* Features */}
+      <FeaturesSection />
 
       {/* Personas */}
       <PersonasSection />

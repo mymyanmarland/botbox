@@ -101,6 +101,21 @@ input, textarea, select {
 .animate-drift-b {
   animation: drift-b 22s ease-in-out infinite;
 }
+.animate-dashflow {
+  animation: dashflow 1.4s linear infinite;
+}
+.ping-ring {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: pingring 2.6s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+@keyframes dashflow {
+  to { stroke-dashoffset: -24; }
+}
+@keyframes pingring {
+  0% { transform: scale(0.55); opacity: 0.9; }
+  80%, 100% { transform: scale(1.9); opacity: 0; }
+}
 @keyframes blink {
   0%, 91%, 100% { transform: scaleY(1); }
   94.5% { transform: scaleY(0.06); }
